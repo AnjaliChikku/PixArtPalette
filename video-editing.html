@@ -72,22 +72,80 @@
 </head>
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="header-container container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo.png" alt="PixelArt Studio">
-        <h5 style="margin-top: 20px;">PixelArt Studio</h5>
-      </a>
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <a class="btn-getstarted" href="index.html#contact">Message</a>
-    </div>
-  </header>
+  <header id="header" class="header d-flex align-items-center fixed-top" role="banner">
+  
+  <div class="header-container container-fluid container-xl d-flex align-items-center justify-content-between">
+
+    <!-- Logo -->
+    <a href="index.html"
+       class="logo d-flex align-items-center me-auto text-decoration-none"
+       aria-label="MeshPixel Studio Home">
+
+      <img src="assets/img/logo.png"
+           alt="MeshPixel Studio Logo"
+           width="60"
+           height="60">
+
+      <span class="site-name fw-bold ms-2">
+        MeshPixel Studio
+      </span>
+    </a>
+
+    <!-- Navigation -->
+    <nav id="navmenu"
+         class="navmenu"
+         aria-label="Main Navigation">
+
+      <ul>
+        <li>
+          <a href="index.html"
+             title="Home - MeshPixel Studio">
+             Home
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#about"
+             title="About MeshPixel Studio">
+             About Us
+          </a>
+        </li>
+
+        <li>
+          <a href="services.html"
+             title="Creative Services">
+             Services
+          </a>
+        </li>
+
+        <li>
+          <a href="portfolio.html"
+             title="View Our Portfolio">
+             Portfolio
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#contact"
+             title="Contact MeshPixel Studio">
+             Contact
+          </a>
+        </li>
+      </ul>
+
+    </nav>
+
+    <!-- CTA Button -->
+    <a class="btn-getstarted"
+       href="index.html#contact"
+       title="Get a Free Quote from MeshPixel Studio"
+       aria-label="Get a Free Quote">
+       Get Quote
+    </a>
+
+  </div>
+
+</header>
 
   <main class="main" style="margin-top: 100px;">
     <section class="section py-5">
