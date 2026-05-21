@@ -40,30 +40,26 @@
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
-  <div class="header-container container-fluid container-xl d-flex align-items-center justify-content-between">
-    
-    <!-- Logo Section with Graphic Design Focused Alt Text -->
-    <a href="index.html" class="logo d-flex align-items-center me-auto">
-      <img src="assets/img/logo.png" alt="PixArt Palette - Graphic Design & Branding Studio Kerala Logo" width="150" height="50">
-      <span class="logo-text">PixArt Palette</span>
-    </a>
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-    <!-- Navigation Menu Section for Web Crawlers & Accessibility -->
-    <nav id="navmenu" class="navmenu" aria-label="Main Navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <!-- Utilizing global relative target roots to allow seamless navigation from sub-directories -->
-        <li><a href="index.html#about">About Us</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
-      </ul>
-    </nav>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets\img\logo.png" alt="PixArt Palette" >
+        <h5 style="margin-top: 20px;">PixArt Palette</h5>
+      </a>
 
-    <!-- Call to Action Anchor Link -->
-    <a class="btn-getstarted" href="index.html#contact" title="Get a graphic design quote from PixArt Palette">Message</a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-  </div>
-</header>
+      <a class="btn-getstarted" href="#contact" >Message</a>
 
+    </div>
+  </header>
   <main class="main" style="margin-top: 100px;">
   <!-- Section element with descriptive label for web crawler context -->
   <section class="section py-5" aria-label="PixArt Palette Graphic Design and Creative Branding Services">
