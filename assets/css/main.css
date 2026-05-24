@@ -3763,7 +3763,19 @@ section,
     font-size: 16px;
   }
 }
+.section-title h1{
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+}
 
+.seo-subtitle{
+  color: rgba(255,255,255,0.7);
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 16px;
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
